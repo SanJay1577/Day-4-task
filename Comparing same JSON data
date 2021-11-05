@@ -1,0 +1,15 @@
+var obj1 = { name: "Person 1", age:5 };
+var obj2 = { age:5, name: "Person 1" };
+
+//Getting the values of the object
+
+var objval1 = Object.values(obj1);
+var objval2 =  Object.values(obj2);
+
+//Since the properties are same we compare the length of the obj if it is same it is true.
+
+if(objval1.length == objval2.length){ 
+  console.log("True");
+}else{
+  console.log("false");
+}
